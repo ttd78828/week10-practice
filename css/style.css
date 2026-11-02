@@ -14,8 +14,13 @@ header h1 {
 }
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: coolumn;
   gap: 16px;
+}
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
 }
 nav a {
   color: #ffffff;
